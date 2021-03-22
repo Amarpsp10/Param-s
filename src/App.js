@@ -3,6 +3,7 @@ import './App.css';
 
 import Navbar from './components/navbar/Nav'
 import IntroSection from './components/intro-section/Intro'
+import MailSection from './components/mail-section/Form'
 function App() {
   return (
   <div>
@@ -37,6 +38,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <MailSection/>
     </div>
   </div>
   );
