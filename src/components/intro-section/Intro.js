@@ -30,7 +30,7 @@ class Intro extends Component {
                     >Hi...
                  </motion.h6>
                  <h1>Amar Preet here!</h1>
-                 <p>dskl fksdjfkldjsk dskjfd djfkdjakldio sdjsdiojsd sdlka dsdkl sd sdf sd fsdaf ds gsd gd sagfas glsdhjkafhjkashdkf sdkjfhkdsj dskljfkla lfkasdjklfjaskl klsdjflk </p>
+                 <p className='para'>dskl fksdjfkldjsk dskjfd djfkdjakldio sdjsdiojsd sdlka dsdkl sd sdf sd fsdaf ds gsd gd sagfas glsdhjkafhjkashdkf sdkjfhkdsj dskljfkla lfkasdjklfjaskl klsdjflk </p>
                  <button className={'button-resume'}>DOWNLOAD RESUME</button>
                </div>
             

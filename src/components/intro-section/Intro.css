@@ -20,10 +20,16 @@
 }
 
 .intro-text {
-  margin-top: -100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   text-align: left;
-  font-size: 30px;
+  font-size: 1.6rem;
   width: 40%;
+  height: 60%;
+}
+.para {
+  font-size: 1.2rem;
 }
 
 .profile-image {
@@ -39,15 +45,24 @@
 
 @media screen and (max-width: 760px) {
   .intro {
+    background: url("../../images/param-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 80vh; */
     flex-direction: column;
+    clip-path: none;
   }
 
   .profile-image {
+    display: none;
+  }
+  .intro-text {
+    width: 80%;
   }
 }
 
 .hi {
-  font-size: 30px;
+  font-size: 1.8;
   color: rgb(255, 255, 255);
 }
 .button-resume {
