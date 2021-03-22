@@ -52,3 +52,51 @@
 .nav-text {
   color: white;
 }
+
+@media screen and (max-width: 760px) {
+  .list {
+    z-index: 2;
+    position: fixed;
+    /* background-color: #d32f2f; */
+    background: linear-gradient(
+      0deg,
+      #d32f2f 0%,
+      #d32f2f 85%,
+      #dda0a0 90%,
+      #d14141 100%
+    );
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    width: 80%;
+    justify-content: center;
+    margin-top: 1%;
+    margin-left: 100vh;
+  }
+  .icon {
+    color: white;
+    width: 35px;
+    height: 20px;
+    transition: height 0.2s;
+  }
+  .icon:hover {
+    height: 30px;
+    width: 35px;
+  }
+  .nav-links {
+    padding-top: 0px;
+    text-decoration: none;
+    text-align: center;
+
+    font-size: 12px;
+    border: solid;
+    border-color: black;
+    border-width: 0px;
+    border-radius: 5px;
+    height: 100%;
+    width: 99%;
+  }
+  .nav-text {
+    display: none;
+  }
+}

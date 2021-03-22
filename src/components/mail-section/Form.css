@@ -1,12 +1,15 @@
 .form {
+  background-image: url("../../images/param-image-left.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 90vh;
-  background: linear-gradient(
+  /* background: linear-gradient(
     90deg,
-    #413e40 0%,
-    #838383 45%,
-    #413e40 90%,
-    #413e40 100%
-  );
+    #413e4083 0%,
+    #8383835d 45%,
+    #413e4075 90%,
+    #413e4070 100%
+  ); */
 }
 .heading {
   color: white;
