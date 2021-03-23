@@ -1,6 +1,6 @@
 import React,{Component} from 'react'
 import './Edu.css'
-
+import test from '../../images/building.jpg'
 export default class edu extends Component{
 
 
@@ -10,10 +10,11 @@ export default class edu extends Component{
             <div>
                <section className={'edu-section'}>
                    <div className={'box'}>
-                       flaskdjfkljaskldjfkl
-                       sadkjflkjasdlkjfkljsdklfjasdlfkjlasdkjfkljsdkljfkls
-                       dfklasdjklfjlaksjdklfjklasdjklfjsdaf
-                       sdl
+                      <h1
+                    className={'image'} 
+                      >
+                      fsdkkfsa    
+                    </h1>  
                    </div>
                </section>
               

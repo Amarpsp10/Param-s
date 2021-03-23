@@ -10,7 +10,9 @@ function App() {
   <div>
     <Navbar/>
     <IntroSection/>
+    <hr/>
     <EduSection/>
+    <hr/>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
