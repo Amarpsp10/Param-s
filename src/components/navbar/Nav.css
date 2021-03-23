@@ -34,18 +34,18 @@
   width: 99%;
 }
 
-.icon {
+.nav-icon {
   color: white;
   width: 70px;
   height: 40px;
   transition: height 0.2s;
 }
 
-.icon:hover {
+.nav-icon:hover {
   height: 60px;
   width: 70px;
 }
-.active-icon {
+.active-nav-icon {
   height: 60px;
   width: 70px;
 }
@@ -73,13 +73,13 @@
     margin-top: 1%;
     margin-left: 10%;
   }
-  .icon {
+  .nav-icon {
     color: white;
     width: 35px;
     height: 20px;
     transition: height 0.2s;
   }
-  .icon:hover {
+  .nav-icon:hover {
     height: 30px;
     width: 35px;
   }

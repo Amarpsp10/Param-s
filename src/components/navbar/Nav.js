@@ -30,7 +30,7 @@ export default class Nav extends Component{
                                  
                                 className={'nav-links'} >
                                   <a href={'#'}>
-                                 <BsPersonFill className={this.state.activeClassName==='home' ? 'active-icon icon' : 'icon'}/>   
+                                 <BsPersonFill className={this.state.activeClassName==='home' ? 'active-nav-icon nav-icon' : 'nav-icon'}/>   
                                   </a>
                                  <h6 className={'nav-text'}>
                                   Home 
@@ -40,7 +40,7 @@ export default class Nav extends Component{
                                className={'nav-links'} >
                                     <a href={'#'}>
 
-                                <BsFillAwardFill href={'#'} className={this.state.activeClassName==='education'? 'active-icon icon' : 'icon'}/>   
+                                <BsFillAwardFill href={'#'} className={this.state.activeClassName==='education'? 'active-nav-icon nav-icon' : 'nav-icon'}/>   
                                     </a>
                                 <h6 className={'nav-text'}>
                                   Education
@@ -51,7 +51,7 @@ export default class Nav extends Component{
                               className={'nav-links'} >
                                    <a href={'#'}>
 
-                               <BsBriefcaseFill href={'#'} className={this.state.activeClassName==='projects' ? 'active-icon icon' : 'icon'}/>   
+                               <BsBriefcaseFill href={'#'} className={this.state.activeClassName==='projects' ? 'active-nav-icon nav-icon' : 'nav-icon'}/>   
                                    </a>
                                <h6 className={'nav-text'}>
                                   Projects
@@ -62,7 +62,7 @@ export default class Nav extends Component{
                              className={'nav-links'} >
                                   <a href={'#'}>
 
-                              <BsFillPieChartFill href={'#'} className={this.state.activeClassName==='services' ? 'active-icon icon' : 'icon'}/>   
+                              <BsFillPieChartFill href={'#'} className={this.state.activeClassName==='services' ? 'active-nav-icon nav-icon' : 'nav-icon'}/>   
                                   </a>
                               <h6 className={'nav-text'}>
                                   Services
@@ -73,7 +73,7 @@ export default class Nav extends Component{
                             className={'nav-links'} >
                                  <a href={'#'}>
 
-                             <BsEnvelopeFill href={'#'} className={this.state.activeClassName==='mail' ? 'active-icon icon' : 'icon'}/>   
+                             <BsEnvelopeFill href={'#'} className={this.state.activeClassName==='mail' ? 'active-nav-icon nav-icon' : 'nav-icon'}/>   
                                  </a>
                              <h6 className={'nav-text'}>
                                   Mail
