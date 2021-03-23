@@ -4,11 +4,13 @@ import './App.css';
 import Navbar from './components/navbar/Nav'
 import IntroSection from './components/intro-section/Intro'
 import MailSection from './components/mail-section/Form'
+import EduSection from './components/Education-section/Edu'
 function App() {
   return (
   <div>
     <Navbar/>
     <IntroSection/>
+    <EduSection/>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
