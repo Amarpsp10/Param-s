@@ -1,5 +1,5 @@
 .form {
-  background-image: url("../../images/param-image-left.jpeg");
+  background-image: url("../../images/building.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 90vh;
@@ -59,4 +59,16 @@
 }
 *:focus {
   outline: none;
+}
+
+@media screen and (max-width: 760px) {
+  .input-name {
+    height: 30px;
+    width: 70%;
+    font-size: 12px;
+  }
+  .message {
+    height: 150px;
+    padding-top: 8px;
+  }
 }
