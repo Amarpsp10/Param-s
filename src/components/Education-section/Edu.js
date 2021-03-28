@@ -8,7 +8,13 @@ export default class edu extends Component{
     render(){
         return(
             <div>
-               
+               <section className="edu-section">
+                  
+                  <div>
+                      
+                  </div>
+
+               </section>
               
             </div>
         );

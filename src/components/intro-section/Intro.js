@@ -14,8 +14,8 @@ class Intro extends Component {
             
             <section  id="intro" className="intro">
                <motion.div
-                      initial={{x:-500}}
-                      animate={{opacity:1,x:0, rotate:360}}s
+                      initial={{x:-500,}}
+                      animate={{opacity:1,x:0,rotate:360}}s
                       transition={{duration:1,}}
                       
                       className="profile-image hideme">
@@ -35,7 +35,7 @@ class Intro extends Component {
                  <button className={'button-resume'}>DOWNLOAD RESUME</button>
                  <div class="social">
                      <ul className='social-media-list'>
-                        <li>
+                        <li className='icon-back'>
                            <a className={'media-links'} href="https://github.com/Amarpsp10" target="blank"><i class="fab fa-github icon"></i></a>
                         </li>
                         <li>
