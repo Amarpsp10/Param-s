@@ -38,7 +38,7 @@ export default class Nav extends Component{
                                 </a>
                                 <a
                                className={'nav-links'} >
-                                    <a href={'#'}>
+                                    <a href={'#edu'}>
 
                                 <BsFillAwardFill href={'#'} className={this.state.activeClassName==='education'? 'active-nav-icon nav-icon' : 'nav-icon'}/>   
                                     </a>
@@ -71,7 +71,7 @@ export default class Nav extends Component{
                              <a
                              
                             className={'nav-links'} >
-                                 <a href={'#'}>
+                                 <a href={'#mail'}>
 
                              <BsEnvelopeFill href={'#'} className={this.state.activeClassName==='mail' ? 'active-nav-icon nav-icon' : 'nav-icon'}/>   
                                  </a>

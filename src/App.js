@@ -10,8 +10,8 @@ function App() {
   <div>
     <Navbar/>
     <IntroSection/>
-    <hr/>
     <EduSection/>
+    
     <hr/>
     <div className="App">
       <header className="App-header">

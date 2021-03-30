@@ -7,15 +7,13 @@ export default class edu extends Component{
 
     render(){
         return(
-            <div>
+            <div id='edu'>
                <section className="edu-section">
-                  
                   <div>
-                      
+                  <div class="card card-1"></div>
+                  <div class="card card-1"></div>
                   </div>
-
                </section>
-              
             </div>
         );
     }

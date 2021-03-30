@@ -1,7 +1,8 @@
 .edu-section {
-  background-color: #633a3a;
-  height: 100vh;
-  padding: 10%;
+  background-color: #e4e0e0;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
 }
 
 /* h2::before {
@@ -25,3 +26,21 @@
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
   border-bottom: 1px solid rgba(150, 150, 150, 0.5);
 } */
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 550px;
+  width: 450px;
+  margin: 3rem 1.2rem;
+  position: relative;
+}
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}

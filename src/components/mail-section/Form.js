@@ -6,7 +6,7 @@ export default class form extends Component{
 
     render(){
         return(
-            <div className={'form'}>
+            <div id='mail' className={'form'}>
                 <h1 className={'heading'}>Contact Me</h1>
 
                 <div className='inputs'>
