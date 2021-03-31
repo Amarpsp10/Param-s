@@ -97,6 +97,7 @@
 
 .media-links {
   text-align: center;
+  align-content: center;
   display: block;
   color: black;
   box-shadow: 0 14px 24px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);

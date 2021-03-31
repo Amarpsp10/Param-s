@@ -3,6 +3,7 @@
   align-content: center;
   justify-content: center;
   text-align: center;
+  padding-top: 20px;
 }
 
 /* h2::before {
@@ -30,8 +31,8 @@
   background: #fff;
   border-radius: 2px;
   display: inline-block;
-  height: 600px;
-  width: 450px;
+  height: 700px;
+  width: 520px;
   margin: 3rem 1.2rem;
   position: relative;
 }
@@ -47,7 +48,7 @@
 
 @media screen and (max-width: 760px) {
   .card {
-    width: 80%;
+    width: 88%;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   }
 }
