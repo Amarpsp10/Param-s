@@ -49,7 +49,7 @@ export default class Nav extends Component{
                                <a
                                
                               className={'nav-links'} >
-                                   <a href={'#'}>
+                                   <a href={'#projects'}>
 
                                <BsBriefcaseFill href={'#'} className={this.state.activeClassName==='projects' ? 'active-nav-icon nav-icon' : 'nav-icon'}/>   
                                    </a>
