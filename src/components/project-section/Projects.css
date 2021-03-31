@@ -7,13 +7,20 @@
 .body {
   background-color: #e4e0e0;
   padding: 10%;
+  background: linear-gradient(
+    180deg,
+    #e4e0e0 0%,
+    #e4e0e0 5%,
+    rgb(58, 55, 65) 100%
+  );
 }
 
 .img {
-  height: fit-content;
+  height: 100%;
 }
 
 .slider {
+  padding: 15px;
   width: 800px;
   height: 600px;
   margin: auto;
