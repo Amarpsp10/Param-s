@@ -14,9 +14,9 @@ export default class projects extends Component{
 
     render(){
         return(
-            <div className='body' id="projects">
-               
-              <Carousel infiniteLoop={true} emulateTouch={true} autoPlay={true} interval={4000} showThumbs={false} className={'slider'}>
+            <div className='body'>
+               <div id="projects">
+              <Carousel infiniteLoop={true} emulateTouch={true} autoPlay={true} interval={4000} showThumbs={false} className={'slider'} swipeScrollTolerance={'300'}>
               <div>
                     <img src={backimg1} className={'img'}/>
                     <p className="legend">Legend 1</p>
@@ -30,6 +30,7 @@ export default class projects extends Component{
                     <p className="legend">Legend 3</p>
                 </div>
               </Carousel>
+               </div>
             </div>
         );
     }

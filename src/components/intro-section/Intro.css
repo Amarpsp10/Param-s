@@ -59,10 +59,21 @@
     width: 80%;
   }
 }
+.para {
+  font-size: 17px;
+}
 
 .hi {
   font-size: 1.8;
+  margin-bottom: 5px;
   color: rgb(255, 255, 255);
+}
+.hi span {
+  font-size: 34px;
+  font-weight: bolder;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  /* margin-top: 15px; */
 }
 .button-resume {
   background-color: #d32f2f;
@@ -86,7 +97,7 @@
 }
 
 .social-media-list {
-  margin-left: -10%;
+  margin-left: -7%;
   list-style: none;
   display: flex;
   flex-direction: row;

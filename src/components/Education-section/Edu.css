@@ -29,7 +29,7 @@
   background: #fff;
   border-radius: 2px;
   display: inline-block;
-  height: 700px;
+  /* height: 700px; */
   width: 520px;
   margin: 3rem 1.2rem;
   position: relative;
@@ -52,6 +52,7 @@
 }
 
 h2 {
+  width: 90%;
   /* height: 40px; */
   background-color: #006699;
   color: #fff;
@@ -68,4 +69,9 @@ h2 {
 
 .info-list {
   text-align: start;
+  width: 85%;
+}
+
+p {
+  color: black;
 }
