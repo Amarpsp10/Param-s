@@ -60,7 +60,7 @@ export default class Nav extends Component{
                               <a
                               
                              className={'nav-links'} >
-                                  <a href={'#'}>
+                                  <a href={'#services'}>
 
                               <BsFillPieChartFill href={'#'} className={this.state.activeClassName==='services' ? 'active-nav-icon nav-icon' : 'nav-icon'}/>   
                                   </a>

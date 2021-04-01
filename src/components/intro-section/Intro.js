@@ -47,7 +47,8 @@ class Intro extends Component {
                         <li>
                            <a className={'media-links'} href="https://www.linkedin.com/in/amar-preet-singh/" target="blank"><i class="fab fa-linkedin-in icon"></i></a></li>
                         <li>
-                           <a className={'media-links'} href="https://www.instagram.com/amar_preet_singh_/" target="blank"><i class="fab fa-instagram icon"></i></a></li>
+                           <a className={'media-links'} href="https://www.instagram.com/amar_preet_singh_/" target="blank"><i class="fab fa-instagram icon"></i></a>
+                        </li>
                        </ul>
                 </div>
                </div>
