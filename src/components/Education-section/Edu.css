@@ -1,7 +1,5 @@
 .edu-section {
   background-color: #e4e0e0;
-  align-content: center;
-  justify-content: center;
   text-align: center;
   padding-top: 20px;
 }
@@ -51,4 +49,23 @@
     width: 88%;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   }
+}
+
+h2 {
+  /* height: 40px; */
+  background-color: #006699;
+  color: #fff;
+  padding: 0px 20px;
+  text-align: end;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(150, 150, 150, 0.5);
+}
+.uni-logo {
+  /* margin: -15px; */
+  margin: -15px 5px;
+}
+
+.info-list {
+  text-align: start;
 }
