@@ -35,7 +35,7 @@ class Intro extends Component {
                     </span>
                  </motion.h6>
                  <p className='para'>
-                    analysing the information for patterns and valuable results such as sales patterns,
+                    Analysing the information for patterns and valuable results such as sales patterns,
                      examining any feedback from clients and making notes of any issues that must be addressed
                      like improving products.
                      </p>

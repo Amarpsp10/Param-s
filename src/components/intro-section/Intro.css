@@ -9,8 +9,10 @@
     rgb(94, 89, 105) 50%,
     rgb(58, 55, 65) 100%
   );
-  clip-path: polygon(0 0, 100% 0, 98% 100%, 80% 89%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 98% 100%, 80% 85%, 0 100%);
   height: 100vh;
+  /* border-radius: 30px; */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   /* background-color: #e4e0e0; */
   display: flex;
   flex-direction: row;
@@ -42,9 +44,14 @@
 }
 
 @media screen and (max-width: 760px) {
+  .div {
+    height: 98vh;
+  }
   .intro {
+    height: 94vh;
     background: url("../../images/param-background.jpg");
     background-repeat: no-repeat;
+    border-radius: 30px;
     background-size: cover;
     /* background-size: 80vh; */
     flex-direction: column;
@@ -58,22 +65,26 @@
     color: white;
     width: 80%;
   }
+  .media-links {
+    margin: 0 20px;
+  }
 }
 .para {
   font-size: 17px;
+  color: #e4e0e0;
 }
 
 .hi {
   font-size: 1.8;
   margin-bottom: 5px;
-  color: rgb(255, 255, 255);
+  color: #e4e0e0;
 }
 .hi span {
-  font-size: 34px;
-  font-weight: bolder;
+  font-size: 40px;
+  font-weight: bold;
   font-family: "Times New Roman", Times, serif;
   color: white;
-  /* margin-top: 15px; */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 .button-resume {
   background-color: #d32f2f;
