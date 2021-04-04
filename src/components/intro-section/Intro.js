@@ -3,10 +3,15 @@ import {motion} from 'framer-motion'
 import My_image from '../../images/my_image.png'
 import Param_Image from '../../images/param-image-left.jpeg'
 import Param_profile from '../../images/param-profile.png'
+import resume from '../../Documents/CV-Paramveer_Singh.pdf'
 import './Intro.css'
 
 class Intro extends Component {
-    
+   
+     resume=()=>{
+      window.open(resume)
+    }
+
 
     render() {
         return(
@@ -39,7 +44,9 @@ class Intro extends Component {
                      examining any feedback from clients and making notes of any issues that must be addressed
                      like improving products.
                      </p>
-                 <button className={'button-resume'}>DOWNLOAD RESUME</button>
+                     
+                     <button onClick={()=>this.resume()} className={'button-resume'}>DOWNLOAD RESUME</button>
+                     
                  <div class="social">
                      <ul className='social-media-list'>
                         {/* <li className='icon-back'>
