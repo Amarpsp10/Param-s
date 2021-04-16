@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Param-s/static/css/main.f5572593.chunk.css",
+    "main.js": "/Param-s/static/js/main.91ad5d1a.chunk.js",
+    "main.js.map": "/Param-s/static/js/main.91ad5d1a.chunk.js.map",
+    "runtime-main.js": "/Param-s/static/js/runtime-main.6cfd063b.js",
+    "runtime-main.js.map": "/Param-s/static/js/runtime-main.6cfd063b.js.map",
+    "static/css/2.6b560088.chunk.css": "/Param-s/static/css/2.6b560088.chunk.css",
+    "static/js/2.196d7170.chunk.js": "/Param-s/static/js/2.196d7170.chunk.js",
+    "static/js/2.196d7170.chunk.js.map": "/Param-s/static/js/2.196d7170.chunk.js.map",
+    "static/js/3.c5075bb4.chunk.js": "/Param-s/static/js/3.c5075bb4.chunk.js",
+    "static/js/3.c5075bb4.chunk.js.map": "/Param-s/static/js/3.c5075bb4.chunk.js.map",
+    "index.html": "/Param-s/index.html",
+    "static/css/2.6b560088.chunk.css.map": "/Param-s/static/css/2.6b560088.chunk.css.map",
+    "static/css/main.f5572593.chunk.css.map": "/Param-s/static/css/main.f5572593.chunk.css.map",
+    "static/js/2.196d7170.chunk.js.LICENSE.txt": "/Param-s/static/js/2.196d7170.chunk.js.LICENSE.txt",
+    "static/media/CV-Paramveer_Singh.6963301a.pdf": "/Param-s/static/media/CV-Paramveer_Singh.6963301a.pdf",
+    "static/media/Form.css": "/Param-s/static/media/building.332bc596.jpg",
+    "static/media/company-logo.d783ef76.png": "/Param-s/static/media/company-logo.d783ef76.png",
+    "static/media/logo.6ce24c58.svg": "/Param-s/static/media/logo.6ce24c58.svg",
+    "static/media/my_image.d1589b68.png": "/Param-s/static/media/my_image.d1589b68.png",
+    "static/media/Intro.css": "/Param-s/static/media/param-background.9f6720bf.jpg",
+    "static/media/param-image-left.5d6cc3a1.jpeg": "/Param-s/static/media/param-image-left.5d6cc3a1.jpeg",
+    "static/media/param-profile.7e5ed102.png": "/Param-s/static/media/param-profile.7e5ed102.png",
+    "static/media/splash1.56626a80.jpg": "/Param-s/static/media/splash1.56626a80.jpg",
+    "static/media/splash2.a1041547.jpg": "/Param-s/static/media/splash2.a1041547.jpg",
+    "static/media/splash3.a416761d.jpg": "/Param-s/static/media/splash3.a416761d.jpg",
+    "static/media/unipu-logo.0b2f0570.png": "/Param-s/static/media/unipu-logo.0b2f0570.png",
+    "static/media/uniwindsor-logo.6c67596e.jpg": "/Param-s/static/media/uniwindsor-logo.6c67596e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6cfd063b.js",
+    "static/css/2.6b560088.chunk.css",
+    "static/js/2.196d7170.chunk.js",
+    "static/css/main.f5572593.chunk.css",
+    "static/js/main.91ad5d1a.chunk.js"
+  ]
+}
